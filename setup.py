@@ -16,19 +16,16 @@ setup(
     # the version across setup.py and the project code, see
     # http://packaging.python.org/en/latest/tutorial.html#version
     version='0.0.1-alpha',
+    license='MIT',
+    # The project homepage.
+    url='https://github.com/cjerdonek/arugula',
 
-    description='A sample Python 3 project',
+    description='a sample Python 3 project for a command-line script',
+    keywords='sample python3 project',
     long_description=long_description,
 
-    # The project's main homepage.
-    url='https://github.com/pypa/sampleproject',
-
-    # Author details
     author='Chris Jerdonek',
     author_email='chris.jerdonek@gmail.com',
-
-    # Choose your license
-    license='MIT',
 
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
@@ -44,9 +41,6 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
     ],
-
-    # What does your project relate to?
-    keywords='sample python3 project',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
